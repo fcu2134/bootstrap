@@ -1,97 +1,136 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <title>5horas haciéndolo :D</title>
-    <link rel="stylesheet" type="text/css" href="assets1/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+
 <body>
     <!--encabezado-->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">carreras</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">locación</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Información extra
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">profesores</a></li>
-                            <li><a class="dropdown-item" href="#">contactos</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">ayuda sobre inscripción</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">buscar</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-    <!--contenido extra  :)-->
-    <table class="table table-hover">
-        <tr>
-            <th>Nombre</th>
-            <th>Estado</th>
-            <th>Estado</th>
-        </tr>
-        <tr>
-            <td>Miguel</td>
-            <td>Arca</td>
-            <td>Arca</td>
-        </tr>
-        <tr>
-            <td>Miguel</td>
-            <td>Gonza</td>
-            <td>Ste</td>
-        </tr>
-    </table>
-    <!-- Imágenes -->
-    <div id="div">
-        <div>
-            <img src="assets/img/mario.jpg" class="rounded float-start m-5" id="img1" alt="proce">
-        </div>
-        <div>
-            <img src="assets/img/fondo.jpg" class="rounded float-end m-5" id="img2" alt="procee">
-        </div>
-    </div>
-    <!-- Información adicional -->
-    <section class="w-75 text-center pt-2" id="intro">
-        <h1 class="p-4 fs-5 border-top border-4">Primer proyecto con Bootstrap<span class="text-primary">Proyecto Digital</span></h1>
-        <p class="p-3 fs-5"><span class="text-secondary">Proyecto Digital</span> es el primer proyecto práctico realizado con la ayuda de diversas páginas. Una breve explicación de Bootstrap: es un framework que permite a los desarrolladores construir páginas web más rápidas y dinámicas, proporcionando un conjunto de componentes y plantillas en CSS, HTML y JavaScript, de forma gratuita. Bootstrap ofrece ejemplos de código en su sitio web para ayudarte a crear distintos tipos de elementos web.</p>
-    </section>
-    <!-- Desenlace -->
-    <section class="container-fluid">
-        <div class="row w-75 mx-auto">
-            <div class="col-lg-6 col-md-12 col-sm-12">
-                <img src="assets/img/mario.jpg" width="180" height="160">
-                <div>
-                    <h4 class="fs-4 mt-4 px-5 pb-1">Nombre estudiante</h4>
-                    <p class="px-4">Facundo Marin</p>
-                </div>
-            </div>    
-            <div class="col-lg-6 col-md-12 col-sm-12">
-                <img src="assets/img/fondo.jpg" width="180" height="160">
-                <div>
-                    <h4 class="fs-4 mt-4 px-5 pb-1">extra</h4>
-                    <p class="px-2">No me quedó tan bien :C</p>
+
+    <body class>
+        <!--encabezado-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">carreras</a>
+                        </li>
+
+                        <li class="nav-item"></li>
+                        <a class="nav-link" aria-current="time" href="#">locacion</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                informacion extra
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">profesores</a></li>
+                                <li><a class="dropdown-item" href="#">contactos</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">ayuda
+                                        sobre inscripcion </a></li>
+                            </ul>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">buscarr</button>
+                    </form>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Incluye los archivos JavaScript de Bootstrap llamandolo desde la carpeta js -->
-    <script src="assets1\js\bootstrap.min.js"></script>
-</body>
+        </nav>
+
+        <!--contenido extra  :)-->
+        <table class="table table-hover">
+            <tr>
+                <th>Nombre</th>
+                <th>Estado</th>
+                <th>Estado</th>
+            </tr>
+            <tr>
+                <td>miguel</td>
+                <td>arca</td>
+                <td>arca</td>
+
+            </tr>
+            <tr>
+                <td>miguel</td>
+                <td>gonza</td>
+                <td>ste</td>
+
+            </tr>
+
+            <!--imagenes para poder agregar-->
+            <div id="div">
+                <div>
+                    <img src="./assets/img/mario.jpg" class="rounded float-start m-5 " id="img1" alt="proce">
+                </div>
+
+                <div>
+                    <img src="./assets/img/fondo.jpg" class="rounded float-end m-5" id="img2" alt="procee">
+                </div>
+            </div>
+            <!--info extra-->
+            <section class="w-75  text-center pt-2" id="intro">
+                <h1 class="p-4 fs-5 border-top border-4">
+                    primer proyecto con boostrap<span class="text-primary">proyecto
+                        digital</span>
+                </h1>
+                <p class="p-3 fs-5"><span class="text-secundary">proyecto
+                        digital</span>
+                    es el primer proyecto de forma practica que hago
+                    mediante ayuda de distintas paginas, una breve
+                    explicacion de lo que es boostrap ,es un framework que
+                    nos permiete alos desarroladores construir una pagina
+                    web mas rapida y dinamica , tambien nos proporciona un
+                    conjunto de componentes y plantillas css,html y
+                    javascript la cual es de manera gratuita, de igual forma
+                    tiene su propia pagina en donde te ensenan ejemplos de
+                    como hacer todo tipo de codgio.</p>
+                </p>
+
+            </section>
+
+            <!--desenlace -->
+            <section class="container-fluid">
+                <div class="row w-75 mx-auto">
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <img src="assets/img/mario.jpg" width="180" height="160">
+
+                        <div>
+                            <h4 class="fs-4 mt-4 px-5 pb-1">Nombre estudiante</h4>
+                            <p class="px-4">Facundo Marin</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <img src="assets/img/fondo.jpg" width="180" height="160">
+
+                        <div>
+                            <h4 class=" fs-4 mt-4 px-5 pb-1">extra</h4>
+                            <p class="px-2">no me quedo tan bien :C</p>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            </div>
+            <!-- Incluye los archivos JavaScript de Bootstrap llamandolo desde la carpeta js -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
+    </body>
+
 </html>
